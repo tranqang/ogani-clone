@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oganic</title>
+    <title>Organic</title>
+    <link rel="stylesheet" href="./assets/css/animation.css">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -82,7 +83,24 @@
                         <ul>
                             <li><a href="#">Home</a></li>
                             <li><a href="#">Shop</a></li>
-                            <li><a href="#">Pages</a></li>
+                            <li class="header__menu__pages">
+                                <a href="#">Pages</a>
+                                <ul class="header__menu__pages__sub">
+                                    <li>
+                                        <a href="#">Shop Details</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Shopping Cart</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Check Out</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Blog Details</a>
+                                    </li>
+                                    
+                                </ul>
+                            </li>
                             <li><a href="#">Blog</a></li>
                             <li><a href="#">Contact</a></li>
                         </ul>
@@ -218,5 +236,566 @@
                             </div>
                         </div>
     </header>
+    <section class="category">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="category__left">
+                        <div class="category__left__header">
+                            <label for="category__left__list__input">
+                                <i class="ti-menu"></i>
+                                All Departments
+                                <i class="ti-angle-down" style="float: right; line-height: 30px;"></i>
+                            </label>
+                        </div>
+                        <input type="checkbox" name="" id="category__left__list__input" hidden>
+                       <ul class="category__left__list">
+                           <li><a href="#">Fresh Meat</a></li>
+                           <li><a href="#">Vegetables</a></li>
+                           <li><a href="#">Fruit & Nut Gifts</a></li>
+                           <li><a href="#">Fresh Berries</a></li>
+                           <li><a href="#">Ocean Foods</a></li>
+                           <li><a href="#">Butter & Eggs</a></li>
+                           <li><a href="#">Fastfood</a></li>
+                           <li><a href="#">Fresh Onion</a></li>
+                           <li><a href="#">Papayaya & Crisps</a></li>
+                           <li><a href="#">Oatmeal</a></li>
+                           <li><a href="#">Fresh Bananas</a></li>
+                       </ul> 
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="category__right">
+                        <div class="category__right__search">
+                            <form action="#" class="category__right__search__form">
+                                <div class="category__right__search__text">
+                                    <p>All Categories</p>
+                                    <i class="ti-angle-down"></i>
+                                </div>
+                                <div class="category__right__search__input">
+                                    <input type="text" placeholder="What do you need?">
+                                    <button>SEARCH</button>
+                                </div>
+                                
+                            </form>
+                            <div class="category__right__search__phone">
+                                <div class="category__right__search__phone__icon">
+                                    <i class="ti-mobile"></i>
+                                </div>
+                                <div class="category__right__search__phone__text">
+                                    <h3>+65 11.188.888</h3>
+                                    <p>support 24/7 time</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="category__right__banner">
+                            <div class="category__right__banner__text">
+                                <span>FRUIT FRESH</span>
+                                <h1>Vegetable 100% Organic</h1>
+                                <p>Free Pickup and Delivery Available</p>
+                                <a href="#">
+                                    SHOP NOW
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="banner__category">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="banner__category__item" style="background-image: url('https://preview.colorlib.com/theme/ogani/img/categories/cat-1.jpg');">
+                        <span>
+                            <a href="#">FRESH FRUIT</a>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="banner__category__item" style="background-image: url('https://preview.colorlib.com/theme/ogani/img/categories/cat-2.jpg');">
+                        <span>
+                            <a href="#">FRESH FRUIT</a>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="banner__category__item" style="background-image: url('https://preview.colorlib.com/theme/ogani/img/categories/cat-3.jpg');">
+                        <span>
+                            <a href="#">FRESH FRUIT</a>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="banner__category__item" style="background-image: url('https://preview.colorlib.com/theme/ogani/img/categories/cat-4.jpg');">
+                        <span>
+                            <a href="#">FRESH FRUIT</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="featured__product">
+        <div class="container">
+            <div class="featured__product__header">
+                <h1>Featured Product</h1>
+                <ul>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">Oranges</a></li>
+                    <li><a href="#">Fresh Meat</a></li>
+                    <li><a href="#">Vegetables</a></li>
+                    <li><a href="#">Fastfood</a></li>
+                </ul>
+            </div>
+            <div class="featured__product__content">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="featured__product__item">
+                            <div class="featured__product__item__bg" style="background-image: url('https://preview.colorlib.com/theme/ogani/img/featured/feature-1.jpg');">
+                            <ul class="featured__product__item__interactive">
+                                <li><a href="#" class="ti-heart"></a></li>
+                                <li><a href="#" class="ti-reload"></a></li>
+                                <li><a href="#" class="ti-shopping-cart"></a></li>
+                            </ul>
+                            </div>
+                            <div class="featured__product__item__text">
+                                <p>Crab Pool Security</p>
+                                <h3>$ 30.00</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="featured__product__item">
+                            <div class="featured__product__item__bg" style="background-image: url('https://preview.colorlib.com/theme/ogani/img/featured/feature-2.jpg');">
+                            <ul class="featured__product__item__interactive">
+                                <li><a href="#" class="ti-heart"></a></li>
+                                <li><a href="#" class="ti-reload"></a></li>
+                                <li><a href="#" class="ti-shopping-cart"></a></li>
+                            </ul>
+                            </div>
+                            <div class="featured__product__item__text">
+                                <p>Crab Pool Security</p>
+                                <h3>$ 30.00</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="featured__product__item">
+                            <div class="featured__product__item__bg" style="background-image: url('https://preview.colorlib.com/theme/ogani/img/featured/feature-3.jpg');">
+                            <ul class="featured__product__item__interactive">
+                                <li><a href="#" class="ti-heart"></a></li>
+                                <li><a href="#" class="ti-reload"></a></li>
+                                <li><a href="#" class="ti-shopping-cart"></a></li>
+                            </ul>
+                            </div>
+                            <div class="featured__product__item__text">
+                                <p>Crab Pool Security</p>
+                                <h3>$ 30.00</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="featured__product__item">
+                            <div class="featured__product__item__bg" style="background-image: url('https://preview.colorlib.com/theme/ogani/img/featured/feature-4.jpg');">
+                            <ul class="featured__product__item__interactive">
+                                <li><a href="#" class="ti-heart"></a></li>
+                                <li><a href="#" class="ti-reload"></a></li>
+                                <li><a href="#" class="ti-shopping-cart"></a></li>
+                            </ul>
+                            </div>
+                            <div class="featured__product__item__text">
+                                <p>Crab Pool Security</p>
+                                <h3>$ 30.00</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="featured__product__item">
+                            <div class="featured__product__item__bg" style="background-image: url('https://preview.colorlib.com/theme/ogani/img/featured/feature-8.jpg');">
+                            <ul class="featured__product__item__interactive">
+                                <li><a href="#" class="ti-heart"></a></li>
+                                <li><a href="#" class="ti-reload"></a></li>
+                                <li><a href="#" class="ti-shopping-cart"></a></li>
+                            </ul>
+                            </div>
+                            <div class="featured__product__item__text">
+                                <p>Crab Pool Security</p>
+                                <h3>$ 30.00</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="featured__product__item">
+                            <div class="featured__product__item__bg" style="background-image: url('https://preview.colorlib.com/theme/ogani/img/featured/feature-7.jpg');">
+                            <ul class="featured__product__item__interactive">
+                                <li><a href="#" class="ti-heart"></a></li>
+                                <li><a href="#" class="ti-reload"></a></li>
+                                <li><a href="#" class="ti-shopping-cart"></a></li>
+                            </ul>
+                            </div>
+                            <div class="featured__product__item__text">
+                                <p>Crab Pool Security</p>
+                                <h3>$ 30.00</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="featured__product__item">
+                            <div class="featured__product__item__bg" style="background-image: url('https://preview.colorlib.com/theme/ogani/img/featured/feature-6.jpg');">
+                            <ul class="featured__product__item__interactive">
+                                <li><a href="#" class="ti-heart"></a></li>
+                                <li><a href="#" class="ti-reload"></a></li>
+                                <li><a href="#" class="ti-shopping-cart"></a></li>
+                            </ul>
+                            </div>
+                            <div class="featured__product__item__text">
+                                <p>Crab Pool Security</p>
+                                <h3>$ 30.00</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="featured__product__item">
+                            <div class="featured__product__item__bg" style="background-image: url('https://preview.colorlib.com/theme/ogani/img/featured/feature-5.jpg');">
+                            <ul class="featured__product__item__interactive">
+                                <li><a href="#" class="ti-heart"></a></li>
+                                <li><a href="#" class="ti-reload"></a></li>
+                                <li><a href="#" class="ti-shopping-cart"></a></li>
+                            </ul>
+                            </div>
+                            <div class="featured__product__item__text">
+                                <p>Crab Pool Security</p>
+                                <h3>$ 30.00</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="banner__pic">
+                        <img src="https://preview.colorlib.com/theme/ogani/img/banner/xbanner-1.jpg.pagespeed.ic.aDN3QrExt6.webp" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="banner__pic">
+                        <img src="https://preview.colorlib.com/theme/ogani/img/banner/xbanner-2.jpg.pagespeed.ic.-2eeuFVLcY.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="lastest__product">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="lastest__product__header">
+                        <h1>Lastest Products</h1>
+                        <div class="lastest__product__header__control">
+                            <i class="ti-arrow-left"></i>
+                            <i class="ti-arrow-right"></i>
+                        </div>
+                        
+                    </div>
+                    <div class="lastest__product__content">
+                        <div class="lastest__product__item">
+                            <div class="lastest__product__item__pic">
+                                <img src="https://preview.colorlib.com/theme/ogani/img/latest-product/xlp-1.jpg.pagespeed.ic.dQgcajStX5.webp" alt="">
+                            </div>
+                            <div class="lastest__product__item__desc">
+                                <p>Crab Pool Security</p>
+                                <h3>$ 30.00</h3>
+                            </div>
+
+                        </div>
+                        <div class="lastest__product__item">
+                            <div class="lastest__product__item__pic">
+                                <img src="https://preview.colorlib.com/theme/ogani/img/latest-product/xlp-2.jpg.pagespeed.ic.NOJHmb0hZw.webp" alt="">
+                            </div>
+                            <div class="lastest__product__item__desc">
+                                <p>Crab Pool Security</p>
+                                <h3>$ 30.00</h3>
+                            </div>
+
+                        </div>
+                        <div class="lastest__product__item">
+                            <div class="lastest__product__item__pic">
+                                <img src="https://preview.colorlib.com/theme/ogani/img/latest-product/xlp-3.jpg.pagespeed.ic.eEz5Jo7-Qa.webp" alt="">
+                            </div>
+                            <div class="lastest__product__item__desc">
+                                <p>Crab Pool Security</p>
+                                <h3>$ 30.00</h3>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="lastest__product__header">
+                        <h1>Top Rated Product</h1>
+                        <div class="lastest__product__header__control">
+                            <i class="ti-arrow-left"></i>
+                            <i class="ti-arrow-right"></i>
+                        </div>
+                        
+                    </div>
+                    <div class="lastest__product__content">
+                        <div class="lastest__product__item">
+                            <div class="lastest__product__item__pic">
+                                <img src="https://preview.colorlib.com/theme/ogani/img/latest-product/xlp-1.jpg.pagespeed.ic.dQgcajStX5.webp" alt="">
+                            </div>
+                            <div class="lastest__product__item__desc">
+                                <p>Crab Pool Security</p>
+                                <h3>$ 30.00</h3>
+                            </div>
+
+                        </div>
+                        <div class="lastest__product__item">
+                            <div class="lastest__product__item__pic">
+                                <img src="https://preview.colorlib.com/theme/ogani/img/latest-product/xlp-2.jpg.pagespeed.ic.NOJHmb0hZw.webp" alt="">
+                            </div>
+                            <div class="lastest__product__item__desc">
+                                <p>Crab Pool Security</p>
+                                <h3>$ 30.00</h3>
+                            </div>
+
+                        </div>
+                        <div class="lastest__product__item">
+                            <div class="lastest__product__item__pic">
+                                <img src="https://preview.colorlib.com/theme/ogani/img/latest-product/xlp-3.jpg.pagespeed.ic.eEz5Jo7-Qa.webp" alt="">
+                            </div>
+                            <div class="lastest__product__item__desc">
+                                <p>Crab Pool Security</p>
+                                <h3>$ 30.00</h3>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="lastest__product__header">
+                        <h1>Review Products</h1>
+                        <div class="lastest__product__header__control">
+                            <i class="ti-arrow-left"></i>
+                            <i class="ti-arrow-right"></i>
+                        </div>
+                        
+                    </div>
+                    <div class="lastest__product__content">
+                        <div class="lastest__product__item">
+                            <div class="lastest__product__item__pic">
+                                <img src="https://preview.colorlib.com/theme/ogani/img/latest-product/xlp-1.jpg.pagespeed.ic.dQgcajStX5.webp" alt="">
+                            </div>
+                            <div class="lastest__product__item__desc">
+                                <p>Crab Pool Security</p>
+                                <h3>$ 30.00</h3>
+                            </div>
+
+                        </div>
+                        <div class="lastest__product__item">
+                            <div class="lastest__product__item__pic">
+                                <img src="https://preview.colorlib.com/theme/ogani/img/latest-product/xlp-2.jpg.pagespeed.ic.NOJHmb0hZw.webp" alt="">
+                            </div>
+                            <div class="lastest__product__item__desc">
+                                <p>Crab Pool Security</p>
+                                <h3>$ 30.00</h3>
+                            </div>
+
+                        </div>
+                        <div class="lastest__product__item">
+                            <div class="lastest__product__item__pic">
+                                <img src="https://preview.colorlib.com/theme/ogani/img/latest-product/xlp-3.jpg.pagespeed.ic.eEz5Jo7-Qa.webp" alt="">
+                            </div>
+                            <div class="lastest__product__item__desc">
+                                <p>Crab Pool Security</p>
+                                <h3>$ 30.00</h3>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="from__blog">
+        <div class="container">
+            <h1 class="from__blog__header">From The Blog</h1>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="from__blog__item">
+                        <div class="from__blog__item__pic">
+                            <img src="https://preview.colorlib.com/theme/ogani/img/blog/xblog-1.jpg.pagespeed.ic.b6c8D8etPg.webp" alt="">
+
+                        </div>
+                        <div class="from__blog__item__desc">
+                            <ul>
+                                <li>
+                                    <i class="ti-calendar"></i>
+                                    <span>May 4, 2019</span>
+                                </li>
+                                <li>
+                                    <i class="ti-comment"></i>
+                                    <span>5</span>
+                                </li>
+                            </ul>
+
+                            <h3>Cooking tips make cooking simple</h3>
+                            <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="from__blog__item">
+                        <div class="from__blog__item__pic">
+                            <img src="https://preview.colorlib.com/theme/ogani/img/blog/xblog-2.jpg.pagespeed.ic.Wv9OXwE7iA.webp" alt="">
+
+                        </div>
+                        <div class="from__blog__item__desc">
+                            <ul>
+                                <li>
+                                    <i class="ti-calendar"></i>
+                                    <span>May 4, 2019</span>
+                                </li>
+                                <li>
+                                    <i class="ti-comment"></i>
+                                    <span>5</span>
+                                </li>
+                            </ul>
+                            
+                            <h3>Cooking tips make cooking simple</h3>
+                            <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="from__blog__item">
+                        <div class="from__blog__item__pic">
+                            <img src="https://preview.colorlib.com/theme/ogani/img/blog/xblog-3.jpg.pagespeed.ic.ruf-U0Iaxk.webp" alt="">
+
+                        </div>
+                        <div class="from__blog__item__desc">
+                            <ul>
+                                <li>
+                                    <i class="ti-calendar"></i>
+                                    <span>May 4, 2019</span>
+                                </li>
+                                <li>
+                                    <i class="ti-comment"></i>
+                                    <span>5</span>
+                                </li>
+                            </ul>
+                            
+                            <h3>Cooking tips make cooking simple</h3>
+                            <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="footer__item__first">
+                        <div class="footer__pic">
+                            <img src="data:image/webp;base64,UklGRpgDAABXRUJQVlA4TIwDAAAvdkAMEO/BJpJkK72vXvT4ZqS4w78Aam04jiRJarJ3X/C6wSD8N0lqto0kSak5fjws8o+QCI5hE9m2E36dOGS6bAJrWKJCBH0SkBQ86JkfCJ731Wu9DYoxhk1iYOGSWLi2AMTIUCbp2vbvvU4Zlu97fkrCV1AqChChRlVJEpY17VzODKoiVZlcTPof1Zj/kOHNnMe9fc+x9IOw1RQzNUVBYaC8NAIVKIrgiYj6/3UEbdu22tjRVkQIwcY5lHHsfHMOpv//w84phDxab/0Q0f8JQOGPP35D8ck1dvJ7Sp+/Fpw/57Od+JFSSh+/Kye3OeebPUnpDYCr55xzft6JL1p6i5usn+/Du5TSp5RS+vPpyOU+fEopfTyklNK/Oef7nPPVPiT5TvyVc77bj4NySCm9vs93jznni314LdLrlNL7+6ernHM+2Yfvyivl+mfO+RE7eRCvDym9ur7OOeeLvfhdvH+f0t+XOef8gN38Jl6l9xc55/xwuh/4fkjpx4d/cs755hQ72VtHki9edqfnl+enKO8nF0hycaZvyhaqfRHVqcSQpFMMZVdiAgt9h/LGBBa7okjdVmD8JdqFK21R57mybDoSaiy/QgxcbQsGri7zR9hXoNmuWVhxOjLwuHPOrYokGYStEdrNLNWlB9CaoLBT2qC5HmrTT7ZkErMINei26qha6DEoTnFUB1QOohMcarDfyCoLjvcKI4CO6oDKPUl6ODGvCSI021DtCuAUA8AqM2pbMWEUbFZMgSTtJp2yoHRQHICgxGpBdGiVYYUZBbstjDIVRSUAkdKj9kCSAYAX8xo44beYlLEICoFOcQpLj8zCApgEmzVR0GzglK6OUUythnIAEJVhDYxg/O8ZlAYAgnCr4IWrNyvDFraWEzOkFWxXdYJjNaOYolbxQKc4xUhf0lKOSq+MqzCJ0NQalKVoUGYgKmyE6kpGpXxZ1wSSnGu1CmOJU0YAQTF1lgpsV6EXdJWwKK6gp9oAsEpoa7SsOa7DLNQag0J7JAbFAkBUuLQVpipLhTZsgUWh6wG0hmpoBazCYFrRLgVe6Y57wXYdxk1iUFYOUBuvkPTOeeoAIuWM45MyVYDbAl2FAUdjOFIMYFLGgqj4GnETxLAiDChs3boAIChtAbxgrACzCRpbZFuUD74smAboKReUWmWq0fhNgGacPUnvxhbro3FeLM50kFYxRb3ia6Db6H8TAQ==" alt="">
+    
+                        </div>
+                        <ul>
+                            <li>Address: 60-49 Road 11378 New York</li>
+                            <li>Phone: +65 11.188.888</li>
+                            <li>Email: hello@colorlib.com</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="footer__item__second">
+                        <h3>Useful Links</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">About Our Shop</a></li>
+                        <li><a href="#">Secure Shopping</a></li>
+                        <li><a href="#">Delivery information</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Our Sitemap</a></li>
+                        
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="#">Who We Are</a>
+                        </li>
+                        <li>
+                            <a href="#">Our Services</a>
+                        </li>
+                        <li>
+                            <a href="#">Project</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#">Innovation</a>
+                        </li>
+                        <li>
+                            <a href="#">Testimonials</a>
+                        </li>
+                    </ul>
+                    </div>
+                    
+                </div>
+                <div class="col-lg-4">
+                    <div class="footer__item__third">
+                        <h3>Join Our Newsletter Now</h3>
+                    <p>Get E-mail updates about our latest shop and special offers.</p>
+                    <form action="#">
+                        <input type="text" placeholder="Enter your email">
+                        <button>SUBSCRIBE</button>
+                    </form>
+                    <ul>
+                        <li><a href="#">
+                            <i class="ti-facebook"></i>
+                        </a></li>
+                        <li><a href="#">
+                            <i class="ti-instagram"></i>
+                        </a></li>
+                        <li><a href="#">
+                            <i class="ti-twitter"></i>
+                        </a></li>
+                        <li><a href="#">
+                            <i class="ti-pinterest"></i>
+                        </a></li>
+                    </ul>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="footer__end">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <p>Copyright ©2021 All rights reserved | This template is made with <i class="ti-heart"></i> by Thieu</p>
+        
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="footer__end__img">
+                                <img src="https://preview.colorlib.com/theme/ogani/img/xpayment-item.png.pagespeed.ic.fk3ziISga0.webp" alt="">
+
+                            </div>  
+                            
+                        </div>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
